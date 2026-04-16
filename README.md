@@ -1,35 +1,25 @@
-# Audio Loop & Volume Controller
+# 🎵 Audio Loop Application
+
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+![Platform](https://img.shields.io/badge/platform-windows-blue)
+![Type](https://img.shields.io/badge/project-audio%20automation-orange)
+![License](https://img.shields.io/badge/license-educational-lightgrey)
+
+---
 
 ## 📌 Overview
-This project is a simple audio automation tool that continuously plays a selected audio track in a loop while maintaining a fixed system volume level.
+This application continuously plays an audio file in a loop and can optionally manage system volume while running.
 
-It is intended for educational and experimental purposes only.
+It is intended for **educational and personal experimentation purposes only**.
 
 ---
 
 ## ⚙️ Features
-- Continuous playback of a selected audio file
-- Automatic volume adjustment to a predefined level
-- Runs in the background while active
-- Simple start/stop control (if implemented)
+- 🔁 Continuous audio looping  
+- 🔊 Optional system volume control  
+- 🖥️ Runs via simple batch launcher  
+- ⏹️ Manual stop support  
 
 ---
 
-## 🚀 How It Works
-The script:
-1. Loads the selected audio file
-2. Plays it in a continuous loop
-3. Monitors system volume
-4. Resets volume to the configured level if it changes
-
----
-
-## 🖥️ Requirements
-- Python 3.x (or your runtime environment)
-- Required libraries (example):
-  - `pygame` / `pydub` / `playsound` (depending on implementation)
-  - `pycaw` (Windows volume control, if used)
-
-Install dependencies:
-```bash
-pip install -r requirements.txt
+## 📁 Project Structure
