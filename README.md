@@ -2,22 +2,21 @@
 
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
 ![Platform](https://img.shields.io/badge/platform-windows-blue)
-![Type](https://img.shields.io/badge/project-audio%20automation-orange)
-![License](https://img.shields.io/badge/license-educational-lightgrey)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
 ---
 
 ## 📌 Overview
 This application continuously plays an audio file in a loop and can optionally manage system volume while running.
 
-It is intended for **educational and personal experimentation purposes only**.
+It is intended for **educational and personal use only**.
 
 ---
 
 ## ⚙️ Features
 - 🔁 Continuous audio looping  
 - 🔊 Optional system volume control  
-- 🖥️ Runs via simple batch launcher  
+- 🖥️ Simple batch file launcher  
 - ⏹️ Manual stop support  
 
 ---
@@ -31,56 +30,48 @@ project-folder
 ---
 
 ## 🚀 Setup
-
-1. Place the audio file `Lege Mountain.mp3` into the project folder  
-2. Ensure all script files are in the same directory  
+1. Place `Lege Mountain.mp3` in the project folder  
+2. Ensure all required files are in the same directory  
 
 ---
 
 ## ▶️ Usage
-
-Start the application by running:
+Run the application by executing:
 
 **StartMountain.bat**
 
-This will launch the script and begin audio playback immediately.
+This will start the program and begin audio playback.
 
 ---
 
 ## 🔊 Behavior
-
 When running, the program will:
-- Play `Lege Mountain.mp3` in a continuous loop  
-- Remain active until manually stopped  
+- Play the audio file in a continuous loop  
+- Keep running until manually stopped  
 - Optionally adjust system volume depending on configuration  
 
 ---
 
 ## ⛔ Stopping the Program
-
-You can stop the program using:
-- Closing the terminal / command window  
+You can stop it via:
+- Closing the terminal window  
 - Task Manager process termination  
-- Any implemented stop hotkey (if available)  
+- Built-in stop function (if implemented)  
 
 ---
 
 ## ⚠️ Important Notice
-
-This software modifies audio playback behavior and may adjust system volume depending on configuration.
+This software modifies audio playback behavior and may adjust system volume.
 
 It should only be used on:
 - Your own devices  
 - Systems where you have explicit permission  
 
-Do not use this software on shared, public, or unauthorized systems.
+Do not use on shared, public, or unauthorized systems.
 
 ---
 
-## 📜 Disclaimer
+## 📜 License
+This project is licensed under the MIT License.
 
-This project is provided for **educational and experimental purposes only**.
-
-The authors assume no responsibility or liability for any damages, disruptions, or unintended consequences resulting from the use of this software.
-
-Use at your own risk.
+See the `LICENSE` file for details.
